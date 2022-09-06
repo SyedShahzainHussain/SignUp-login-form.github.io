@@ -1,0 +1,111 @@
+body{
+
+    background-image: linear-gradient(to right, rgb(167, 159, 238), rgb(69, 46, 173));
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.signup-form {
+    /* display: none; */
+    background-color:rgb(167, 159, 238);
+    width: 300px; 
+   height: 100% ;
+    margin: 4px auto;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+button{
+    padding: 0.2rem;
+    background-color: rgb(104, 54, 204);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn a
+{
+    text-decoration: none;
+}
+
+
+#gender
+{
+    display: flex;
+    justify-content: space-around;    
+}
+@media only screen and (max-width:310px) {
+
+    .signup-form{  width: 250px;
+}
+    
+  }
+
+  @media only screen and (max-width:260px) {
+
+    .signup-form{  width: 240px;
+    height: 376px;}
+    
+  }
+
+
+
+
+
+  /* login */
+
+
+  .login-form
+  {
+    /* display: none; */
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color:rgb(167, 159, 238); ;
+    width: 300px;
+    margin: 2px auto;
+
+}   
+.login
+{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width:260px) {
+
+    .login-form{  width: 200px;
+    }
+    
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            background-color: rgb(104, 54, 204);
+        }
+
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        
+        button{
+            background-color:rgb(104, 54, 204);
+        }
+
+        .logout{
+            text-align: center;
+        }
+    </style>
+<body>
+    <div class="logout">
+        
+        <p>Welcome!</p>
+        <button>
+            <a href="logOut.html">LogOut</a>
+        </button>
+        
+    </div>
+
+
+    <script>
+        var abc = localStorage.getItem('code');
+if(abc=='secret'){
+
+}else{
+    window.location.href= 'login.html'; 
+}
+
+    </script>
+</body>
+</html>

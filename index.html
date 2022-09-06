@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>form</title>
+</head>
+<body>
+    <form >
+
+        <div class="signup-form">
+            <div class="signup">
+            <h1>Sign Up</h1>
+        
+            <input type="text" name="firstName" id="firstName" placeholder="First name" required>
+            <input type="text" name="lastName" id="lastName" placeholder="Surname" required>
+            <input type="text" name="email" id="email" placeholder="Mobile number or email address" required>
+            <input type="password" name="password" id="password" placeholder="New password" required>
+
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date" required>
+        </div>
+
+        
+        <div id="gender">
+
+            <div class="male">
+                <label for="radio">Male</label>
+            <input type="radio" name="a" id="male" value="male" required>
+            </div>
+
+            <div class="female">
+                
+                <label for="radio">Female</label>
+                <input type="radio" name="a" id="female"  value="female" required>
+            </div>
+            
+            <div class="other">
+                
+                <label for="radio">Other</label>
+                <input type="radio" name="a" id="custom"  value="other" required>
+            </div>        
+        </div>
+        <div class="btn">
+            <button onclick="register()">Registered</button> <span><a href="login.html">Go to login</a></span>
+        </div>
+    </div>
+  
+</form>
+
+
+
+</body>
+</html>
